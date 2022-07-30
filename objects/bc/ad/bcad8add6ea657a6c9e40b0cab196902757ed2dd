@@ -1,0 +1,171 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 122
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = mid-left
+  x = 399
+  action = movebutton
+  y = -129
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 31
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 93
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = top-left
+  x = -1
+  action = movebutton
+  y = 151
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 352
+  action = movebutton
+  y = 6
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 46
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 430
+  action = movebutton
+  y = 6
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 50
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-left
+  x = 458
+  action = movebutton
+  y = 249
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 229
+  action = deep_customization_element:title_screen_branding
+  actionid = 05962f5e-4c66-49a9-b67f-6d7b368733a41659184015029
+  y = 241
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 5fe2c6df-9936-4f2d-8d1b-b640a212ce4a1659184015038
+  y = 163
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 7559c7f4-1fd6-42c9-b467-ab26466883491659184015039
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = a58c53e6-1878-4eb5-af1b-599e5139baae1659184015039
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  name = backgrundile
+  x = 0
+  width = %guiwidth%
+  actionid = 4332e036-fdfb-4147-83d0-a70f6c72b2ab1659186063321
+  action = addanimation
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  actionid = 6508d376-6ef0-4958-80c6-15d0f37b90971659184096828
+  action = addtext
+  y = 264
+  scale = 0.8
+  alignment = left
+  value = Copyright 2022 Mojang and Moritz
+}
+
